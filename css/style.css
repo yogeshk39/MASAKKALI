@@ -241,7 +241,7 @@ section {
   border-radius: .5rem;
 }
 
-.pricing .box-container {
+.Accomplishments .box-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
@@ -249,26 +249,26 @@ section {
   gap: 2rem;
 }
 
-.pricing .box-container .box {
+.Accomplishments .box-container .box {
   text-align: center;
   padding: 3rem 2rem;
 }
 
-.pricing .box-container .box:nth-child(2) {
+.Accomplishments .box-container .box:nth-child(2) {
   background: var(--light-bg);
   border-radius: .5rem;
 }
 
-.pricing .box-container .box:nth-child(2) .btn {
+.Accomplishments .box-container .box:nth-child(2) .btn {
   background: var(--purple);
   color: #fff;
 }
 
-.pricing .box-container .box:nth-child(2) .btn:hover {
+.Accomplishments .box-container .box:nth-child(2) .btn:hover {
   opacity: .8;
 }
 
-.pricing .box-container .box h3 {
+.Accomplishments .box-container .box h3 {
   display: inline-block;
   padding: .5rem 1.5rem;
   font-weight: normal;
@@ -279,28 +279,28 @@ section {
   margin-bottom: 1rem;
 }
 
-.pricing .box-container .box .price {
+.Accomplishments .box-container .box .price {
   font-size: 5rem;
   font-weight: bolder;
   color: var(--black);
 }
 
-.pricing .box-container .box .price span {
+.Accomplishments .box-container .box .price span {
   font-size: 3rem;
 }
 
-.pricing .box-container .box ul {
+.Accomplishments .box-container .box ul {
   padding: 1rem 0;
   list-style: none;
 }
 
-.pricing .box-container .box ul li {
+.Accomplishments .box-container .box ul li {
   padding: 1rem 0;
   font-size: 1.5rem;
   color: var(--light-color);
 }
 
-.pricing .box-container .box ul li i {
+.Accomplishments .box-container .box ul li i {
   padding-right: .5rem;
   color: var(--purple);
 }
@@ -316,7 +316,7 @@ section {
 .blogs .box-container .box {
   text-align: center;
   padding: 2rem;
-  border: 0.1rem solid #999;
+  border: 0.1rem solid #99999900;
 }
 
 .blogs .box-container .box:hover img {
@@ -332,7 +332,7 @@ section {
   display: block;
   margin-bottom: 1rem;
   font-size: 2rem;
-  color: #263238;
+  color: var(--purple);
 }
 
 .blogs .box-container .box .title:hover {
@@ -368,12 +368,12 @@ section {
 
 .blogs .box-container .box .icons p i {
   padding-right: .5rem;
-  color: #000;
+  color: #632aad;
 }
 
 .blogs .box-container .box .icons a {
   font-size: 1.4rem;
-  color: #263238;
+  color: var(--purple);
 }
 
 .blogs .box-container .box .icons a:hover {
@@ -705,6 +705,9 @@ section {
   .quick-links {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+    background: var(--black);
+    
+
         -ms-flex-flow: column;
             flex-flow: column;
     text-align: center;
@@ -720,6 +723,7 @@ section {
             flex-flow: column;
     text-align: center;
   }
+
   .cpurpleit .share a {
     margin: 0 1rem;
   }
