@@ -704,14 +704,22 @@ section{
     flex-flow: column;
     text-align: center;
 
-    .share{
-
-      a{
-        margin:0 1rem;
-      }
+    .share a {
+      height: 4rem;
+      width: 4rem;
+      line-height: 4rem;
+      font-size: 2rem;
+      background: var(--purple);
+      color: #fff;
+      margin-right: .5rem;
+      text-align: center;
+    }
+    .share a:hover {
+      background: #000;
     }
   }
-}
+    }
+
 
 @media (max-width:450px){
 
