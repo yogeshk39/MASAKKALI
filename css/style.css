@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 :root {
-  --purple:#7743bb;
+  --purple:#A393EB;
   --black:#333;
   --white:#fff;
   --light-color:#666;
@@ -438,6 +438,7 @@ section {
           transform: rotate(45deg);
 }
 
+
 .contact .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -471,11 +472,13 @@ section {
   font-size: 1.5rem;
   color: var(--light-color);
   padding-top: 1.5rem;
+  text-transform: lowercase;
 }
 
 .contact .row .box-container .box p span {
   color: var(--purple);
   padding-right: .5rem;
+  
 }
 
 .contact .row form {
@@ -485,6 +488,7 @@ section {
   background: var(--light-bg);
   padding: 2rem;
   border-radius: .5rem;
+  
 }
 
 .contact .row form h3 {
@@ -586,14 +590,14 @@ section {
       -ms-flex-align: center;
           align-items: center;
   gap: 2rem;
-  background: var(--black);
+  background: var(--light-bg);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 .quick-links .logo {
-  color: var(--white);
+  color: var(--black);
   font-size: 2.5rem;
 }
 
@@ -604,7 +608,7 @@ section {
 .quick-links .links a {
   margin-left: 2rem;
   font-size: 1.7rem;
-  color: var(--white);
+  color: var(--black);
 }
 
 .quick-links .links a:hover {
@@ -742,4 +746,4 @@ section {
     font-size: 50%;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/* # sourceMappingURL=style.css.map */
