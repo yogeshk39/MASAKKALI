@@ -729,9 +729,9 @@ section {
     width: 4rem;
     line-height: 4rem;
     font-size: 4rem;
-;
+
     color: var(--purple);
-    margin-right: .5rem;
+    margin-right: 2.5rem;
     text-align: center;
 
   }
