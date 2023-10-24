@@ -390,7 +390,7 @@ section {
 } */
 
 
-.drive .box-container{
+/* .drive .box-container{
   display: flex;
   flex-wrap: wrap;
   gap:2rem;
@@ -401,9 +401,9 @@ section {
   border-radius: .5rem;
   overflow: hidden;
   box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
-}
+} */
 
-.drive .box-container .box img{
+/* .drive .box-container .box img{
   height: 25rem;
   width:100%;
   object-fit: cover;
@@ -426,7 +426,7 @@ section {
   font-size:1.7rem;
   color: var(--black);
   padding:1rem 0;
-}
+} */
 
 
 .team .box-container {
