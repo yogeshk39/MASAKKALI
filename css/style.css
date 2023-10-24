@@ -450,7 +450,7 @@ section {
 .team .box-container .box .user img {
   height: 9rem;
   width: 9rem;
-  border-radius: 55%;
+  border-radius: 50%;
   object-fit: cover;
 }
 
