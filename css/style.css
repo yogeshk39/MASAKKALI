@@ -196,6 +196,7 @@ section {
 .home .box .content h3 {
   font-size: 3rem;
   color: var(--black);
+  
 }
 
 .home .box .content p {
@@ -203,6 +204,8 @@ section {
   color: var(--light-color);
   padding: 1rem 0;
   line-height: 2;
+  
+  
 }
 
 .about .box-container {
@@ -435,6 +438,7 @@ section {
   -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
   gap: 2rem;
+  
 }
 
 .team .box-container .box .user {
@@ -445,6 +449,7 @@ section {
       -ms-flex-align: center;
           align-items: center;
   gap: 1.5rem;
+  
 }
 
 .team .box-container .box .user img {
@@ -458,6 +463,7 @@ section {
   font-size: 2rem;
   color: var(--black);
   padding-bottom: .5rem;
+  
 }
 
 .team .box-container .box .user .stars i {
@@ -474,6 +480,7 @@ section {
   position: relative;
   margin-top: 3rem;
   line-height: 2;
+  text-transform:none
 }
 
 .team .box-container .box .text::before {
